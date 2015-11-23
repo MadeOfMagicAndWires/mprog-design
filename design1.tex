@@ -1,15 +1,4 @@
-\documentclass{article}
-
-\usepackage{ifpdf}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-
 \title{Introduction to Design}
-\author{Joost Bremmer}
-\date{\today}
-
-\begin{document}
-
 
 \paragraph{Certified True Randomizers} \hspace{0pt} \\
 
@@ -18,9 +7,10 @@ For this assignment we will use the \href{https://www.random.org/app/}{Randomize
 
 
 \begin{enumerate}
-  \item What gap in the user experience can you infer from the app’s functionality?
+  \item \textbf{What gap in the user experience can you infer from the app’s functionality?}
 
-    The user needed a simple way to generate randomness, including but not limited to \hyphenation{50 50} results.
+    The user needed a simple way to generate randomness, including but not limited to \hyphenation{fifty fifty} results.
+
     Of course, this could easily be solved by flipping an actual coin, but this can be messy;
     first you have to get a coin out of your wallet, flip it, hope you'll catch it alright, and then you have put everything back again.
     for this we're looking for a cleaner, more reliable solution that is just as quick.
@@ -28,19 +18,19 @@ For this assignment we will use the \href{https://www.random.org/app/}{Randomize
     There are a whole array of similar apps, webservices already available, but the main selling point of this one is that it is the ``official'' app
     for \url{https://www.random.org}, a site famous for it's ``true'' randomness. We can assume that this app will therefore have that same focus.
 
-    So the primary function of this app is to produce reliably random results in \hyphenation{50 50} chance scenarios, similar to flipping a coin.
+    So the primary function of this app is to produce reliably random results in \hyphenation{fifty fifty} chance scenarios, similar to flipping a coin.
     Any additional desiriable qualities would be:
 
     \begin{itemize}
       \item quicker and cleaner than an actual coin toss
       \item visual representation of the result
       \item coverage for other chance scenarios like dice rolling, name picking etc.
-      \item /href{https://www.xkcd.com/221/}{must be truly random}
+      \item \href{https://www.xkcd.com/221/}{must be truly random}
       \item native mobile app
     \end{itemize}
 
-  \item Do you think the designer really understands the problem?
-    
+  \item \textbf{Do you think the designer really understands the problem?}
+
     This app has the advantage of basically being a mobile native front-end for an already succesful webservice. 
     They therefore didn't have to deal with the problem of creating ``true randomness'' on predictable machines like computers, 
     and so the designer could put all their effort into figuring out how to succesfully relay all the information.
@@ -54,16 +44,50 @@ For this assignment we will use the \href{https://www.random.org/app/}{Randomize
     In this the app definitely does a much better job in getting the user where they want to go. 
     
     You can start tossing coins right away, and easily switch between chance scenarios by sliding left or right. 
-    Accounting for the time to take your phone out and start the app, it is easily just as quick as tossing a real coin, with much less of a hassle.
-    It also 
+    Accounting for the time to take your phone out and start the app, it is easily just as quick as tossing a real coin, let alone with other scenarios.
+
+    This app however does fetch all it's results from random.org, so that speed comes with the condition that you must be online. 
+    This is the price the user has to pay for ``true randomness'', 
+    and if that isn't such a big issue for the user, definitely a point where the competition can get ahead.
 
 
-  \item What market segments can you define for this app?
-  \item List examples of needs that could be fulfilled for different market segments served by this app.
-  \item Prepare and submit one discussion question about the chapters above.
+  \item \textbf{What market segments can you define for this app?}
+    
+    This app can be used by a wide array of people who often encounter scenario’s that have to be decided by chance. 
+    This can be sports refererees, players of table top games, or people who just like to leave things to chance. 
+
+    However there is competition in this field, and with the affiliation to random.org we can assume this app 
+    specifically targets people who are in the know about the difficulty to create randomness on computers, and who care about “true randomness”.
+
+ 
+  \item \textbf{List examples of needs that could be fulfilled for differe nt market segments served by this app.}
+    
+    Several possibe needs would be:
+    \begin{itemize}
+      \item fast
+      \item native
+      \item multiple scenario’s often encountered in (daily) life
+      \item truly random
+    \end{itemize}
+
+    As mentioned, there is a lot of competition in this field. Most apps though go little further than simple random number generation, 
+    maybe with within custom range, so they already fail to translate that to easily recognizeable scenario’s like the coin toss and dice roll.
+
+    Only one other app provides similar features to ours, and more. 
+    The similarly named \href{https://play.google.com/store/apps/details?id=com.blogspot.truerandomgenerator}{True Random Generator} not only provides 
+    many of the same features as Randomizer but also some other ones, including a “safe password generator”, 
+    another often encountered scenario where randomness plays a big role.
+
+    To top it off, this app promises similiar ``true random'' output, but manages to generate this natively, removing the need for a connection to the internet.
+    It is hard to say though whether their random is as strong as that of Randomizer.
+
+
+  \item \textbf{Prepare and submit one discussion question about the chapters above.}
+    
+    How does Ulrich’s theory of aesthetics relate to non-physical artifacts? How does it compare to the Google Design Guide and Material for example?
+
+
 \end{enumerate}
-
-\end{document}
 
 
 
